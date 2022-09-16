@@ -1,0 +1,73 @@
+h2{
+    text-align: center;
+}
+.divJednaProdavnica{
+    display: flex;
+    flex-wrap: wrap;
+}
+.divLevo{
+    width: 250px;
+    border-right: 1px solid black;
+}
+.red, .redDugme{
+    width: 100%;
+    margin: 3%;
+    display: flex;
+    justify-content: center
+}
+.red > label{
+    width: 25%;
+    text-align: center;
+}
+.red > select {
+    width: 65%;
+}
+.red > input {
+    width: 61%;
+}
+.divDesno{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 3%;
+    width: 70%;
+}
+.divJednaKomponenta{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 2%;
+    width: 30%;
+}
+.divJednaKomponenta > label{
+    margin: 1%;
+}
+.divZaKomponente{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+table, tr, td, th{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.tdsifra, .tdcena{
+    width: 15%;
+}
+.tdkolicina{
+    width: 20%;
+}
+.tdnaziv{
+    width: 40%;
+}
+.divZaTabelu{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+}
+.tabela{
+    width: 100%;
+}

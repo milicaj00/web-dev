@@ -1,0 +1,83 @@
+.divZaLabele, .divZaInput{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.divZaLabele{
+    align-items: center;
+}
+.divZaSelekciju{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly
+}
+.divZaJednuKomponentu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3%;
+}
+.divLevoSelekcija{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  min-width: 250px;
+}
+h2.naslov{
+    text-align: center;
+}
+div.prodavnica{
+    display: flex;
+    flex-direction: row;
+    gap: 1%;
+}
+.tabelaKorpa, td{
+    border: 1px solid black;
+    border-spacing: 0px;
+
+}
+.divZaKomponente{
+    display: grid;
+    /* justify-items: center; */
+    grid-template-columns: auto auto auto;
+    /* grid: auto / auto auto; */
+}
+.divTabela,.divZaKomponente,.divKomponente{
+    width: 100%;
+}
+.tabelaKorpa{
+    width: 70%;
+    border-collapse: collapse;
+}
+td {
+    text-align: center;
+}
+.Kolicina{
+    width: 20%;
+}
+.Naziv{
+    width: 40%;
+}
+.Cena, .Sifra{
+    width: 10%;
+}
+.btnKupi{
+    align-self: center;
+}
+.divTabela{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+    div.prodavnica{
+        flex-direction: column;
+    }
+  }
+.divKomponente{
+    gap: 5%;
+}

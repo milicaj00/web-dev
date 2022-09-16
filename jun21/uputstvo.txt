@@ -1,0 +1,10 @@
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer -v 5.0
+dotnet add package Microsoft.EntityFrameworkCore.Design -v 5.0
+
+dotnet ef migrations add v1
+dotnet ef database update
+
+"ConnectionStrings": {"IspitCS" : "Server=(localdb)\\IspitDB;Database=April2022"}
+
+sqllocaldb create IspitDB
+sqllocaldb start IspitDB

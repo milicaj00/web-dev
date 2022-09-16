@@ -1,0 +1,65 @@
+.divLevo{
+    width: 400px;
+    padding: 2%;
+    min-width: 400px;
+}
+.red{
+    margin: 3%;
+    display: flex;
+    width: 100%;
+}
+.red > button {
+    width: 100%;
+}
+.red > input{
+    width: 60%;
+}
+.red >label{
+    width: 40%;
+}
+.divJednoVozilo{
+    display: flex;
+    flex-wrap: wrap;
+}
+.divDesno{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 60%;
+    justify-content: center
+}
+.divJednoVozilo{
+    flex-direction: column;
+    align-items: center;
+    margin: 2%;
+    padding: 2%;
+    border: 1px solid gray;
+    border-radius: 7px;
+    
+}
+.divJednoVozilo > label {
+    margin: 2%;
+    text-align: center;
+}
+.slika{
+    width: 100px;
+    height: 100px;
+    background-color: beige;
+    border: 1px solid black;
+}
+.divBody{
+    display: flex;
+}
+@media screen and (max-width: 700px) {
+    .divBody{
+        flex-wrap: wrap ;
+        justify-content: center;
+    }
+    
+}
+@media screen and (max-width: 1000px) {
+    .divDesno{
+        justify-content: center;
+    }
+    
+}

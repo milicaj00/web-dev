@@ -1,0 +1,40 @@
+.slika{
+    width: 100px;
+    height: 100px;
+}
+.divBodyProdavnica{
+    display: flex;
+    flex-wrap: wrap;
+}
+.divJedanArtikal{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.divDesno{
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.divLevo{
+    width: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    border-right: 1px solid black;
+}
+.inCenaOd, .inCenaDo{
+    width: 170px;
+}
+.selBrendovi{
+    margin-left: 3px;
+    width: 180px;
+}
+.divRedLevo{
+    margin: 2%;
+}
+h2{
+    text-align: center;
+}

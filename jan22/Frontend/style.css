@@ -1,0 +1,27 @@
+.divZaStubove{
+    display: flex;
+    justify-content: space-around;
+    border: solid black 1px;
+    padding: 3px;
+    min-height: 150px;
+    align-items: end;
+}
+.divZaJedanStub{
+    width : 5%;
+    height : 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    /* align-self: baseline; */
+}
+.divZaKuce{
+    /* max-width: 33%; */
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.divZaJednuKucu{
+    max-width: 33%;
+    border: 1px solid gray;
+    padding: 1%;
+}

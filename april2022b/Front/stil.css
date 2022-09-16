@@ -1,0 +1,43 @@
+.hleb{
+    height: 30px;
+    border: 1px solid black;
+}
+.divZaPrikaz{
+    display: flex;
+}
+.divDesno{
+    width: 100%;
+    display: flex;
+    gap: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.divJedanSendvic{
+    width: 30%;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.divLevo{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    min-width: 300px;
+}
+.inputKolicina, select{
+    width: 60%;
+    
+}
+.red{
+    display: flex;
+    justify-content: space-around
+}
+.noviSastojak{
+    border: 1px solid black;
+    width: 80%;
+    align-self: center;
+}
+.divZaSastojak{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+}
